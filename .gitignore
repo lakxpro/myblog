@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.so
+*.coverage
+.coverage.*
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Docker
+*.log
+*.pid
+*.pyc
+*.swp
+docker-compose.override.yml
