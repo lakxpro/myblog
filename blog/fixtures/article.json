@@ -1,0 +1,102 @@
+[
+    {
+        "model": "blog.article",
+        "pk": 13,
+        "fields": {
+            "title": "Objevování tajemství vesmíru",
+            "content": "Morbi lectus turpis, finibus sed orci sit amet, vulputate egestas lectus. Etiam at vestibulum quam. Etiam luctus purus sed enim cursus vulputate. Maecenas in sollicitudin nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse varius, nulla vitae rutrum venenatis, diam velit luctus eros, nec molestie lorem diam a purus. Duis a arcu tincidunt, porta ligula non, dictum libero. Nam eget ante placerat, vestibulum ipsum ac, vehicula massa. Suspendisse non lectus tincidunt, feugiat neque vitae, eleifend massa. In sollicitudin placerat vestibulum. Donec convallis mi dignissim, interdum diam vitae, rhoncus mauris. Mauris tincidunt dapibus dignissim.\r\n\r\nSed cursus arcu lectus, et efficitur risus eleifend ut. Cras id nibh et neque bibendum ultricies euismod sed sem. Pellentesque eget vestibulum magna. Etiam in velit tellus. Curabitur sollicitudin velit sit amet tellus tristique, id aliquam sem fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce dapibus enim in erat viverra commodo. Sed ultricies est sit amet suscipit hendrerit. Sed tincidunt sapien ac turpis consectetur efficitur quis vitae lectus. Proin id velit nec odio bibendum ultrices. Ut ut ultricies ligula, cursus porta ex. Mauris congue vel nisi et feugiat. Fusce nec varius ligula.\r\n\r\nDuis semper vehicula sapien, porttitor imperdiet lectus bibendum in. Maecenas suscipit vestibulum pulvinar. Etiam dictum ultrices rutrum. In pellentesque faucibus gravida. Pellentesque cursus malesuada diam, non suscipit urna. Curabitur elit ante, hendrerit non pulvinar in, blandit sed neque. Pellentesque vitae enim eu leo volutpat rutrum at et dolor. Sed in sollicitudin elit, vitae mollis est. Fusce non eleifend est. Nunc feugiat nec felis eu dapibus. Suspendisse commodo scelerisque neque quis accumsan. Praesent fermentum tortor at eleifend dapibus. Nunc consectetur vulputate vehicula. Morbi mollis augue ante, at malesuada libero dictum in. Vestibulum id mi augue. Morbi feugiat fringilla justo, eu pulvinar eros vulputate quis.\r\n\r\nNulla interdum urna at diam porttitor rutrum. Duis vitae varius ex. Morbi metus justo, sollicitudin sed consectetur at, lobortis ut diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis elit dolor, eleifend ut sagittis a, dignissim ut elit. Nulla et placerat neque. Cras sit amet enim a erat aliquet euismod.\r\n\r\nNulla varius convallis sagittis. Nam auctor nec odio vitae ullamcorper. Cras et odio efficitur, interdum metus quis, euismod orci. Proin massa turpis, lobortis nec pulvinar ac, dignissim quis justo. Donec a condimentum nisl. Duis congue sit amet lectus ut tincidunt. Vestibulum rutrum odio in nisl rhoncus efficitur. Aenean in metus sit amet ante accumsan aliquet. Vestibulum a pellentesque nunc, in interdum eros. Ut vitae augue enim. Quisque faucibus arcu nec sapien mattis tincidunt. Vivamus congue diam sit amet lacinia eleifend.",
+            "full_image": "articles/vesmir.jpg",
+            "image_thumb": "articles/thumbs/vesmir_thumb.jpg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 14,
+        "fields": {
+            "title": "Budoucnost umělé inteligence",
+            "content": "Cras semper vulputate ipsum, sit amet consequat mi convallis sit amet. Phasellus bibendum non metus condimentum faucibus. Donec sed sapien interdum, porta nibh ac, mollis purus. Aenean ut libero viverra, maximus sapien ac, laoreet risus. Suspendisse vitae metus eu erat maximus vestibulum. Vestibulum porta sem at felis suscipit pellentesque. Aenean ullamcorper ipsum at odio consequat, vitae mattis ipsum mattis. Nunc eget turpis venenatis lectus hendrerit molestie. Donec vehicula, augue tempor mollis pellentesque, massa lacus consectetur lacus, quis tincidunt massa lectus sit amet eros. Curabitur dignissim metus ut lectus maximus laoreet. Donec tincidunt sodales elit vitae ultricies.\r\n\r\nUt egestas eros eget enim gravida posuere. Mauris nec volutpat erat, volutpat facilisis nisi. Praesent a eros lorem. Pellentesque ultrices gravida nibh, eget eleifend quam ornare sed. Phasellus lacinia et velit nec tincidunt. Quisque ac tellus ultrices, tincidunt sem sed, sodales magna. Duis volutpat vestibulum finibus. Vivamus eget viverra lorem, et posuere felis. Aliquam ultrices lorem sed laoreet malesuada. In ac ante a arcu tincidunt pulvinar vitae mollis enim. Maecenas dignissim non turpis non pulvinar.\r\n\r\nUt felis tellus, iaculis vel molestie at, suscipit in ipsum. Nulla nulla orci, interdum in aliquet euismod, hendrerit sit amet libero. Nam malesuada vel dui vitae condimentum. Donec rutrum nulla sed sollicitudin malesuada. Ut semper accumsan neque, non hendrerit elit semper ac. Phasellus non sagittis massa. Aliquam congue nisi dui, nec convallis sem congue nec.",
+            "full_image": "articles/pxfuel.jpg",
+            "image_thumb": "articles/thumbs/pxfuel_thumb.jpg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 15,
+        "fields": {
+            "title": "Cestování časem",
+            "content": "Praesent bibendum neque quis felis maximus, vitae scelerisque dui pellentesque. Morbi dapibus vulputate sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed efficitur risus sagittis, facilisis lectus sed, egestas odio. Vestibulum vel velit sed lacus maximus dignissim in vel nisi. Cras efficitur velit a ipsum dapibus fringilla. Donec iaculis tortor nibh, nec pretium metus porttitor vitae. Aliquam tempus lectus sit amet iaculis efficitur. In malesuada cursus purus eget euismod. In finibus blandit est, accumsan interdum turpis. Nam sit amet augue in erat efficitur posuere eget non lectus.\r\n\r\nAenean quis nisi ac diam viverra cursus a vitae neque. Cras auctor nunc efficitur consectetur bibendum. Aenean id nisl interdum, accumsan ipsum a, elementum mauris. Proin at urna eget tortor rhoncus consequat. Ut egestas magna quis gravida convallis. Integer iaculis urna eget massa tincidunt mattis. Donec lobortis non purus id fringilla. Ut interdum laoreet ligula, pulvinar convallis felis ultrices elementum. Duis egestas, mauris non sodales pharetra, ligula nibh ullamcorper nunc, ac condimentum nulla nibh ac nisi. Sed posuere tellus est, vel blandit elit mattis vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Praesent bibendum felis ut porttitor vehicula.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae massa nec metus tempor gravida nec maximus enim. Cras pharetra erat sed massa auctor bibendum eget in dui. Ut tincidunt ligula quis dignissim porttitor. Nulla elementum justo eget scelerisque rhoncus. Cras vehicula sagittis erat ut aliquam. Nulla facilisi. Sed placerat lobortis convallis. Nulla facilisi. Fusce aliquam elit porttitor elit egestas euismod. Nam iaculis augue quis velit volutpat, in consectetur libero sagittis. Morbi eu neque felis. Etiam odio arcu, congue et placerat eu, venenatis sed enim. Nunc at est sollicitudin, consectetur ex in, elementum nibh. Morbi finibus id orci eu elementum.",
+            "full_image": "articles/cestovani-casem.jpeg",
+            "image_thumb": "articles/thumbs/cestovani-casem_thumb.jpeg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 16,
+        "fields": {
+            "title": "Jak efektivně investovat na akciovém trhu",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae massa nec metus tempor gravida nec maximus enim. Cras pharetra erat sed massa auctor bibendum eget in dui. Ut tincidunt ligula quis dignissim porttitor. Nulla elementum justo eget scelerisque rhoncus. Cras vehicula sagittis erat ut aliquam. Nulla facilisi. Sed placerat lobortis convallis. Nulla facilisi. Fusce aliquam elit porttitor elit egestas euismod. Nam iaculis augue quis velit volutpat, in consectetur libero sagittis. Morbi eu neque felis. Etiam odio arcu, congue et placerat eu, venenatis sed enim. Nunc at est sollicitudin, consectetur ex in, elementum nibh. Morbi finibus id orci eu elementum.\r\n\r\nCurabitur placerat elit vitae lacus blandit, ut posuere libero suscipit. Donec porttitor consectetur rutrum. Suspendisse nec efficitur magna. Curabitur vulputate venenatis finibus. Nam consequat rutrum imperdiet. Proin placerat orci ac tellus scelerisque tincidunt id accumsan quam. Vivamus at bibendum ex, id ultrices dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vitae velit fringilla, vehicula erat ac, pulvinar leo. Suspendisse dignissim elit at lacus consequat ullamcorper. Donec sed magna blandit, hendrerit justo in, rutrum urna. Etiam ac lectus sed ex viverra cursus. Integer ut elit elementum, malesuada dui quis, sagittis felis. Mauris id commodo ipsum. Praesent pulvinar pellentesque consectetur.",
+            "full_image": "articles/stock-market.jpeg",
+            "image_thumb": "articles/thumbs/stock-market_thumb.jpeg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 17,
+        "fields": {
+            "title": "Nejočekávanější videohry roku 2024",
+            "content": "Suspendisse potenti. Vestibulum vel mollis erat. Etiam aliquet, dolor eu lobortis interdum, diam lorem accumsan massa, a gravida libero nisi id enim. Nullam mattis feugiat volutpat. Nunc lacinia orci et purus facilisis, a euismod odio suscipit. Ut risus nisi, tristique finibus vestibulum in, maximus quis sapien. Maecenas pretium arcu non ornare consequat. Quisque mollis, augue ut consequat vestibulum, augue orci tempor augue, lobortis malesuada diam libero ut est. Sed libero dui, tempus rutrum dolor lobortis, accumsan interdum purus. Nulla leo metus, porttitor eget dui eget, facilisis pellentesque tellus. Nunc vel est accumsan, egestas ligula eget, posuere urna. Nullam quis volutpat elit. Nulla facilisi.\r\n\r\nPraesent bibendum neque quis felis maximus, vitae scelerisque dui pellentesque. Morbi dapibus vulputate sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed efficitur risus sagittis, facilisis lectus sed, egestas odio. Vestibulum vel velit sed lacus maximus dignissim in vel nisi. Cras efficitur velit a ipsum dapibus fringilla. Donec iaculis tortor nibh, nec pretium metus porttitor vitae. Aliquam tempus lectus sit amet iaculis efficitur. In malesuada cursus purus eget euismod. In finibus blandit est, accumsan interdum turpis. Nam sit amet augue in erat efficitur posuere eget non lectus.",
+            "full_image": "articles/game.jpeg",
+            "image_thumb": "articles/thumbs/game_thumb.jpeg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 18,
+        "fields": {
+            "title": "Historie a vývoj moderního fotbalu",
+            "content": "Aenean quis nisi ac diam viverra cursus a vitae neque. Cras auctor nunc efficitur consectetur bibendum. Aenean id nisl interdum, accumsan ipsum a, elementum mauris. Proin at urna eget tortor rhoncus consequat. Ut egestas magna quis gravida convallis. Integer iaculis urna eget massa tincidunt mattis. Donec lobortis non purus id fringilla. Ut interdum laoreet ligula, pulvinar convallis felis ultrices elementum. Duis egestas, mauris non sodales pharetra, ligula nibh ullamcorper nunc, ac condimentum nulla nibh ac nisi. Sed posuere tellus est, vel blandit elit mattis vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Praesent bibendum felis ut porttitor vehicula.",
+            "full_image": "articles/fotbal.jpeg",
+            "image_thumb": "articles/thumbs/fotbal_thumb.jpeg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 19,
+        "fields": {
+            "title": "Nejlepší filmové trilogie všech dob",
+            "content": "Curabitur placerat elit vitae lacus blandit, ut posuere libero suscipit. Donec porttitor consectetur rutrum. Suspendisse nec efficitur magna. Curabitur vulputate venenatis finibus. Nam consequat rutrum imperdiet. Proin placerat orci ac tellus scelerisque tincidunt id accumsan quam. Vivamus at bibendum ex, id ultrices dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vitae velit fringilla, vehicula erat ac, pulvinar leo. Suspendisse dignissim elit at lacus consequat ullamcorper. Donec sed magna blandit, hendrerit justo in, rutrum urna. Etiam ac lectus sed ex viverra cursus. Integer ut elit elementum, malesuada dui quis, sagittis felis. Mauris id commodo ipsum. Praesent pulvinar pellentesque consectetur.",
+            "full_image": "articles/film-trilogy.jpeg",
+            "image_thumb": "articles/thumbs/film-trilogy_thumb.jpeg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 20,
+        "fields": {
+            "title": "Knižní novinky, které stojí za přečtení",
+            "content": "Praesent bibendum neque quis felis maximus, vitae scelerisque dui pellentesque. Morbi dapibus vulputate sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed efficitur risus sagittis, facilisis lectus sed, egestas odio. Vestibulum vel velit sed lacus maximus dignissim in vel nisi. Cras efficitur velit a ipsum dapibus fringilla. Donec iaculis tortor nibh, nec pretium metus porttitor vitae. Aliquam tempus lectus sit amet iaculis efficitur. In malesuada cursus purus eget euismod. In finibus blandit est, accumsan interdum turpis. Nam sit amet augue in erat efficitur posuere eget non lectus.\r\n\r\nAenean quis nisi ac diam viverra cursus a vitae neque. Cras auctor nunc efficitur consectetur bibendum. Aenean id nisl interdum, accumsan ipsum a, elementum mauris. Proin at urna eget tortor rhoncus consequat. Ut egestas magna quis gravida convallis. Integer iaculis urna eget massa tincidunt mattis. Donec lobortis non purus id fringilla. Ut interdum laoreet ligula, pulvinar convallis felis ultrices elementum. Duis egestas, mauris non sodales pharetra, ligula nibh ullamcorper nunc, ac condimentum nulla nibh ac nisi. Sed posuere tellus est, vel blandit elit mattis vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Praesent bibendum felis ut porttitor vehicula.",
+            "full_image": "articles/book.png",
+            "image_thumb": "articles/thumbs/book_thumb.png"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 21,
+        "fields": {
+            "title": "Nejkrásnější destinace pro vaši příští dovolenou",
+            "content": "Suspendisse potenti. Vestibulum vel mollis erat. Etiam aliquet, dolor eu lobortis interdum, diam lorem accumsan massa, a gravida libero nisi id enim. Nullam mattis feugiat volutpat. Nunc lacinia orci et purus facilisis, a euismod odio suscipit. Ut risus nisi, tristique finibus vestibulum in, maximus quis sapien. Maecenas pretium arcu non ornare consequat. Quisque mollis, augue ut consequat vestibulum, augue orci tempor augue, lobortis malesuada diam libero ut est. Sed libero dui, tempus rutrum dolor lobortis, accumsan interdum purus. Nulla leo metus, porttitor eget dui eget, facilisis pellentesque tellus. Nunc vel est accumsan, egestas ligula eget, posuere urna. Nullam quis volutpat elit. Nulla facilisi.",
+            "full_image": "articles/vacation.jpeg",
+            "image_thumb": "articles/thumbs/vacation_thumb.jpeg"
+        }
+    },
+    {
+        "model": "blog.article",
+        "pk": 22,
+        "fields": {
+            "title": "Nejlepší fitness rutiny pro začátečníky",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae massa nec metus tempor gravida nec maximus enim. Cras pharetra erat sed massa auctor bibendum eget in dui. Ut tincidunt ligula quis dignissim porttitor. Nulla elementum justo eget scelerisque rhoncus. Cras vehicula sagittis erat ut aliquam. Nulla facilisi. Sed placerat lobortis convallis. Nulla facilisi. Fusce aliquam elit porttitor elit egestas euismod. Nam iaculis augue quis velit volutpat, in consectetur libero sagittis. Morbi eu neque felis. Etiam odio arcu, congue et placerat eu, venenatis sed enim. Nunc at est sollicitudin, consectetur ex in, elementum nibh. Morbi finibus id orci eu elementum.\r\n\r\nCurabitur placerat elit vitae lacus blandit, ut posuere libero suscipit. Donec porttitor consectetur rutrum. Suspendisse nec efficitur magna. Curabitur vulputate venenatis finibus. Nam consequat rutrum imperdiet. Proin placerat orci ac tellus scelerisque tincidunt id accumsan quam. Vivamus at bibendum ex, id ultrices dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vitae velit fringilla, vehicula erat ac, pulvinar leo. Suspendisse dignissim elit at lacus consequat ullamcorper. Donec sed magna blandit, hendrerit justo in, rutrum urna. Etiam ac lectus sed ex viverra cursus. Integer ut elit elementum, malesuada dui quis, sagittis felis. Mauris id commodo ipsum. Praesent pulvinar pellentesque consectetur.",
+            "full_image": "articles/gym.jpeg",
+            "image_thumb": "articles/thumbs/gym_thumb.jpeg"
+        }
+    }
+]

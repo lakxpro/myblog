@@ -1,0 +1,11 @@
+//bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// app
+@import 'base';
+
+// components
+@import 'components/article';
+@import 'components/article_detail';
+@import 'components/tags';
+@import 'components/paginator';

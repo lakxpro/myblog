@@ -27,3 +27,9 @@ db.sqlite3
 *.pyc
 *.swp
 docker-compose.override.yml
+
+### Django ###
+/media
+/staticfiles
+/static/dist
+/node_modules

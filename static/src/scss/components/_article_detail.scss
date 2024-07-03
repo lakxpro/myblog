@@ -1,0 +1,27 @@
+.article-detail {
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+    .article-detail {
+        margin-bottom: 40px; /* Přidá spodní okraj pro lepší oddělení od konce stránky */
+    }
+    .article-content {
+        margin-bottom: 1.5em;
+        font-size: 1.2em;
+    }
+
+    .article-image {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .article-image img.full-image {
+        max-width: 100%;
+        width: 100%;
+        height: auto; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        margin-bottom: 20px;
+    }
+}

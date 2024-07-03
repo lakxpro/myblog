@@ -1,0 +1,106 @@
+[
+    {
+        "model": "blog.articletag",
+        "pk": 11,
+        "fields": {
+            "article": 13,
+            "tag": 9
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 12,
+        "fields": {
+            "article": 14,
+            "tag": 9
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 13,
+        "fields": {
+            "article": 15,
+            "tag": 11
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 14,
+        "fields": {
+            "article": 15,
+            "tag": 9
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 15,
+        "fields": {
+            "article": 15,
+            "tag": 10
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 16,
+        "fields": {
+            "article": 16,
+            "tag": 8
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 17,
+        "fields": {
+            "article": 17,
+            "tag": 6
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 18,
+        "fields": {
+            "article": 18,
+            "tag": 7
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 19,
+        "fields": {
+            "article": 19,
+            "tag": 10
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 20,
+        "fields": {
+            "article": 20,
+            "tag": 11
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 21,
+        "fields": {
+            "article": 21,
+            "tag": 12
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 22,
+        "fields": {
+            "article": 22,
+            "tag": 7
+        }
+    },
+    {
+        "model": "blog.articletag",
+        "pk": 23,
+        "fields": {
+            "article": 22,
+            "tag": 9
+        }
+    }
+]

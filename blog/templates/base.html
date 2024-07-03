@@ -1,0 +1,49 @@
+{% load render_bundle from webpack_loader %}
+{% load blog_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Blog{% endblock %}</title>
+    {% render_bundle 'styles' %}
+</head>
+<body>
+    <header>
+        <div class="container nadpis">
+            <h1 class="text-center my-4">Můj blog</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="collapse navbar-collapse main-menu">
+                <ul class="navbar-nav navbar-custom">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'blog:homepage' %}">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'blog:listpage' %}">Všechny články</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'admin:index' %}">Admin</a>
+                    </li>
+                </ul>
+                <select class="form-inline form-select-sm" aria-label=".form-select-sm example" onchange="location = this.value;" style="margin-left: 20px;">
+                    <option selected disabled>Vyberte tag</option>
+                    {% get_all_tags as tags_for_option %}
+                    {% for tag in tags_for_option %}
+                    <option value="{% url 'blog:articles_by_tag' tag.name %}">{{ tag.name }}</option>
+                    {% endfor %}
+                </select>
+                <form class="form-inline form-sm" method="GET" action="{% url 'blog:search' %}"> 
+                    <label for="name">Titulek:</label>
+                    <input class="form-control mr-sm" type="search" aria-label="Search" name="query">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">vyhledat</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+    {% render_bundle 'app' %}
+</body>
+</html>

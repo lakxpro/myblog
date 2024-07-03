@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block content %}
+<h2>Poslední články</h2>
+    <div class="articles-list">
+        {% for article in articles %}
+            <div class="article-item">
+                <a href={% url "blog:article_detail" article.pk %} class="article-title-link"><h3>{{ article.title }}</h3></a>
+                <div class="article-content">
+                    <p>{{ article.content|truncatewords:20 }}</p>
+                    <img src="{{ article.image_thumb.url }}" alt="{{ article.title }}">
+                </div>
+                <div class="article-tags">
+                    {% for tag in article.tags.all %}
+                    <a href="{% url "blog:articles_by_tag" tag.name %}" class="tag">{{ tag.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="tags">
+        <h3>Všechny tagy</h3>
+        {% for tag in tags %}
+        <a href="{% url "blog:articles_by_tag" tag.name %}" class="tag">{{ tag.name }}</a>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,51 @@
+[
+    {
+        "model": "blog.tag",
+        "pk": 6,
+        "fields": {
+            "name": "hraní"
+        }
+    },
+    {
+        "model": "blog.tag",
+        "pk": 7,
+        "fields": {
+            "name": "sport"
+        }
+    },
+    {
+        "model": "blog.tag",
+        "pk": 8,
+        "fields": {
+            "name": "finance"
+        }
+    },
+    {
+        "model": "blog.tag",
+        "pk": 9,
+        "fields": {
+            "name": "věda"
+        }
+    },
+    {
+        "model": "blog.tag",
+        "pk": 10,
+        "fields": {
+            "name": "filmy"
+        }
+    },
+    {
+        "model": "blog.tag",
+        "pk": 11,
+        "fields": {
+            "name": "knihy"
+        }
+    },
+    {
+        "model": "blog.tag",
+        "pk": 12,
+        "fields": {
+            "name": "cestování"
+        }
+    }
+]
