@@ -36,6 +36,11 @@ class SearchResultsView(ListView):
         query = self.request.GET.get("query")
         return Article.objects.filter(title__icontains=query)
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["query"] = self.request.GET.get("query")
+        return context
+
 
 class ArticleDetail(DetailView):
     model = Article
@@ -48,7 +53,6 @@ class ArticlesByTag(ListView):
     template_name = "search_results/_search_by_tag.html"
     context_object_name = "articles"
     paginate_by = 3
-    # zítra pořešit toto
 
     def get_queryset(self):
         tag_name = self.kwargs["tag_name"]

@@ -9,7 +9,7 @@
             <div class="article-item">
                 <a href={% url "blog:article_detail" article.pk %} class="article-title-link"><h3>{{ article.title }}</h3></a>
                 <div class="article-content">
-                    <p>{{ article.content|truncatewords:20 }}</p>
+                    <p>{{ article.content|truncatewords:100 }}</p>
                     <img src="{{ article.image_thumb.url }}" alt="{{ article.title }}">
                 </div>
                 <div class="article-tags">

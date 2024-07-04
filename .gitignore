@@ -29,7 +29,7 @@ db.sqlite3
 docker-compose.override.yml
 
 ### Django ###
-/media
+/media/articles/*
 /staticfiles
 /static/dist
 /node_modules

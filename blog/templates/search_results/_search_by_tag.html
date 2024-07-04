@@ -3,7 +3,7 @@
 {% block title %}Listpage{% endblock %}
 
 {% block content %}
-<h2>Výsledky vyhledávání podle tagu: {{ tag_name }}</h2>
+<h2>Výsledky vyhledávání podle tagu: tag_name</h2>
 {% if articles %}
 <div class="articles-list">
     {% for article in articles %}
@@ -22,7 +22,7 @@
     {% endfor %}
 </div>
 {% else %}
-    <h3>Boužel jsme nic nenalezli</h3>
+    <p>Nic nenalezeno pro: {{tag_name}}</p>
 {% endif %}
 <div class="pagination">
     <span class="step-links">

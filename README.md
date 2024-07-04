@@ -6,6 +6,7 @@
 
 - Docker
 - Docker Compose
+- npm
 
 ### Steps to Run the Project
 
@@ -15,25 +16,32 @@
     cd yourrepository
     ```
 
-2. Build and start the Docker containers:
+2. Build frontend:
+    ```bash
+    npm run build
+    ``` 
+
+3. Build and start the Docker containers:
     ```bash
     docker-compose build
     docker-compose up -d
     ```
 
-3. Create superuser:
+4. Create superuser:
     ```bash
     docker-compose exec app /bin/bash
+    python manage.py createsuperuser
     ```
 
-4. Upload fixtures data:
+5. Upload fixtures data:
     ```bash
+    docker-compose exec app /bin/bash
     python manage.py loaddata blog/fixtures/tag.json
     python manage.py loaddata blog/fixtures/article.json
     python manage.py loaddata blog/fixtures/articletag.json
     ```
 
-5. Access the application:
+6. Access the application:
     Open your web browser and go to `http://127.0.0.1:8000`.
 
 ### Troubleshooting

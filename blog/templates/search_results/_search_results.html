@@ -6,6 +6,7 @@
 <h2>Výsledky vyhledávání</h2>
 
 <div class="articles-list">
+    {% if articles %}
     {% for article in articles %}
         <div class="article-item">
             <a href={% url "blog:article_detail" article.pk %} class="article-title-link"><h3>{{ article.title }}</h3></a>
@@ -20,22 +21,27 @@
             </div>
         </div>
     {% endfor %}
+    {% else %}
+        <p>Nic nenalezeno pro: {{query}}</p>
+    {% endif %}
 </div>
-<div class="pagination">
-    <span class="step-links">
-        {% if page_obj.has_previous %}
-            <a href="?page=1">&laquo; first</a>
-            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
-        {% endif %}
+{% if is_paginated %}
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+                <a href="?query={{ query }}&page=1">&laquo; first</a>
+                <a href="?query={{ query }}&page={{ page_obj.previous_page_number }}">previous</a>
+            {% endif %}
 
-        <span class="current">
-            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            <span class="current">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+                <a href="?query={{ query }}&page={{ page_obj.next_page_number }}">next</a>
+                <a href="?query={{ query }}&page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+            {% endif %}
         </span>
-
-        {% if page_obj.has_next %}
-            <a href="?page={{ page_obj.next_page_number }}">next</a>
-            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
-        {% endif %}
-    </span>
-</div>
+    </div>
+{% endif %}
 {% endblock %}

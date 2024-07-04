@@ -30,11 +30,11 @@ class Article(models.Model):
         super().save(*args, **kwargs)
         if self.full_image and not self.image_thumb:
             self.image_thumb = self.make_thumbnail(self.full_image)
-            super().save(*args, **kwargs)  # Save again to update the image_thumb field
+            super().save(*args, **kwargs)
 
     def make_thumbnail(self, image, size=(300, 200)):
         img = Image.open(image)
-        img.convert("RGB")  # Convert image to RGB mode
+        img.convert("RGB")
         img.thumbnail(size)
 
         thumb_name, thumb_extension = (
