@@ -35,9 +35,8 @@
 
 5. Upload fixtures data:
     ```bash
-    docker-compose exec app /bin/bash
-    python manage.py loaddata blog/fixtures/tag.json
-    python manage.py loaddata blog/fixtures/article.json
+    python manage.py loaddata blog/fixtures/tag.json &&
+    python manage.py loaddata blog/fixtures/article.json &&
     python manage.py loaddata blog/fixtures/articletag.json
     ```
 
